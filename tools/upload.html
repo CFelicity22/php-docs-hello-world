@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+div {
+    padding: 30px;
+    
+}
+</style>
+<h1>Upload image</h1>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <div>Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload"></div>
+    <div>Destination File Name: <input type="text" name="fileName" id="fileName"></div>
+    <div><input type="submit" value="Upload Image" name="submit"></div>
+</form>
+
+</body>
+</html>
